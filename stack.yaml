@@ -1,0 +1,5 @@
+resolver: clash-HEAD.yaml
+
+extra-deps:
+  - github: gergoerdi/clashilator
+    commit: 72c998145f31762ec1337c019aaa8666c6ee404d
