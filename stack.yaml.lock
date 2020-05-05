@@ -66,20 +66,6 @@ packages:
       sha256: c65170e2f7c3369dbd487a7ab7e1a3542dbc943f05eacca12950001e3414ebfb
   original:
     hackage: shake-0.18.2
-- completed:
-    size: 5982
-    url: https://github.com/gergoerdi/clashilator/archive/9e7dc6ab4878db66bdbbbd8f5aad6567c6f060bd.tar.gz
-    cabal-file:
-      size: 1357
-      sha256: cce3c2cb4f6f12ebd2ca0e5f27689c739e188bc54506e1030767e97bdea91c28
-    name: clashilator
-    version: 0.1.0
-    sha256: 9ed3f4cc4836a3c31a8c2c9e13270daa20832ae32ff6dc8fb697ba7b1948441e
-    pantry-tree:
-      size: 794
-      sha256: dd5193e1b437d3af1fb637ca386f9a72d64431a136e37d7b1f5a7ead2f72bafe
-  original:
-    url: https://github.com/gergoerdi/clashilator/archive/9e7dc6ab4878db66bdbbbd8f5aad6567c6f060bd.tar.gz
 snapshots:
 - completed:
     size: 492027

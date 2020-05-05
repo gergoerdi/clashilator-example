@@ -12,7 +12,6 @@ main = defaultMainWithHooks simpleUserHooks
 
 myBuildHook :: PackageDescription -> LocalBuildInfo -> UserHooks -> BuildFlags -> IO ()
 myBuildHook pkg localInfo userHooks buildFlags = do
-    fixupPkg <- clashilate localInfo buildFlags
-    pkg <- return $ fixupPkg pkg
+    pkg' <- clashilate pkg localInfo buildFlags "Top"
 
-    buildHook simpleUserHooks pkg localInfo userHooks buildFlags
+    buildHook simpleUserHooks pkg' localInfo userHooks buildFlags
