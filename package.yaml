@@ -59,3 +59,5 @@ source-dirs:
 executables:
   dummy:
     main: simulator.hs
+    verbatim:
+      x-clashilator-top: Top
