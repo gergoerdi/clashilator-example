@@ -59,7 +59,7 @@ source-dirs:
   - src
 
 executables:
-  dummy:
+  simulator:
     main: simulator.hs
     verbatim:
       x-clashilator-top-is: MyCircuit.Nested.Top
