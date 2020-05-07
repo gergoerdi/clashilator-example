@@ -1,7 +1,7 @@
 {-# LANGUAGE RecordWildCards #-}
 import Clash.Prelude
 
-import VerilatorFFI
+import Clash.Clashilator.FFI
 import Foreign.Storable
 import Foreign.Marshal.Alloc
 
