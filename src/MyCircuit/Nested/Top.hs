@@ -1,8 +1,8 @@
-module Top where
+module MyCircuit.Nested.Top where
 
 import Clash.Prelude
 import Clash.Annotations.TH
-import MyLib
+import MyCircuit.Nested.Lib
 
 topEntity
     :: "CLK" ::: Clock System

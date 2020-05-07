@@ -1,4 +1,4 @@
-module MyLib (mainBoard) where
+module MyCircuit.Nested.Lib (mainBoard) where
 
 import Clash.Prelude
 import Control.Monad.Reader
