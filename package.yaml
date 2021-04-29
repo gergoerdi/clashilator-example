@@ -63,4 +63,3 @@ executables:
     main: simulator.hs
     verbatim:
       x-clashilator-top-is: MyCircuit.Nested.Top
-      x-clashilator-clock: CLK
