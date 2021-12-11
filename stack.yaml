@@ -1,4 +1,4 @@
-resolver: clash-HEAD.yaml
+resolver: clash-1.4.6.yaml
 
 extra-deps:
-  - clashilator
+- clashilator-0.1.0
